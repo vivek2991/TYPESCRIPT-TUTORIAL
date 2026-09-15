@@ -1,0 +1,15 @@
+"use strict";
+var num1 = 10;
+var num2 = 30;
+var total = num1 + num2;
+console.log(total);
+var oct = 0o100001;
+var hexa = 0b00001;
+var binary = 0x00001;
+console.log(oct + 10);
+var item = 100;
+var item2 = "50";
+console.log(item + item2);
+var item2Converted = Number(item2);
+console.log(item + item2Converted);
+var data = 30;
