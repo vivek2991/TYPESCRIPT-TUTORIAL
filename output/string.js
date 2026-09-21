@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var str = "Vivek Patel";
+var age = 30;
+var userName = "Vivek Patel";
+var info = `my name is ${userName} and age is ${age} years`;
+console.log(info);
+var num = 100;
+var data = num.toString();
+var data1 = " " + num;
+var boolData = true;
+console.log(boolData);
+//# sourceMappingURL=string.js.map

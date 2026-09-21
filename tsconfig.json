@@ -3,7 +3,7 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-    // "outDir": "./dist",
+     "outDir": "./output",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -18,7 +18,7 @@
     // Other Outputs
     "sourceMap": true,
     "declaration": true,
-    "declarationMap": true,
+    //"declarationMap": true,
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
