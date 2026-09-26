@@ -1,6 +1,6 @@
 class Product {
     name:string;
-    price: number;
+    protected price: number;
     pId: number;
     inCart = false;
     isOrdered = false;
@@ -28,6 +28,19 @@ var product = new Product('iPhone', 50000, 32);
 product.addToCart();
 console.log(product.buyProduct());
 
-var product = new Product('Motorola', 80000, 101);
-product.addToCart();
-console.log(product.buyProduct());
+class Order extends Product{
+    constructor(){
+        super('laptop', 100000, 401)
+    }
+
+    getPrice(){
+        return this.price
+    }
+}
+
+// var product = new Product('Motorola', 80000, 101);
+// product.addToCart();
+// console.log(product.buyProduct());
+
+var order = new Order();
+console.log(order.getPrice());
