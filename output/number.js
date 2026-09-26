@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var num1 = 10;
 var num2 = 30;
 var total = num1 + num2;
@@ -14,4 +12,4 @@ console.log(item + item2);
 var item2Converted = Number(item2);
 console.log(item + item2Converted);
 var data = 30;
-//# sourceMappingURL=number.js.map
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var userData = {
     name: 'Vivek',
     age: 35,
@@ -32,4 +30,4 @@ tempData.age = "24";
 tempData.company = "TCS";
 tempData.city = 'Bhavnagar';
 console.log(tempData);
-//# sourceMappingURL=object.js.map
+export {};

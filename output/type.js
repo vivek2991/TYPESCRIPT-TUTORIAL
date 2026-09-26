@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var empData = {
     name: 'Vivek',
     email: 'vivek@gmail.com'
@@ -10,4 +8,4 @@ var studentData = {
     email: 'smriti@gmail.com'
 };
 console.log(studentData);
-//# sourceMappingURL=type.js.map
+export {};

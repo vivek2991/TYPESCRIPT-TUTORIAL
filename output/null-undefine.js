@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var data = null;
 console.log(data);
 var item1 = "";
@@ -13,4 +11,4 @@ if (login) {
 }
 console.log(userName);
 console.log(typeof data);
-//# sourceMappingURL=null-undefine.js.map
+export {};

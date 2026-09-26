@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var whoType;
 (function (whoType) {
     whoType["student"] = "student";
@@ -16,4 +14,4 @@ console.log(whoType.management);
 console.log(whoType.labStaff);
 console.log(whoType);
 console.log(who);
-//# sourceMappingURL=enum.js.map
+export {};

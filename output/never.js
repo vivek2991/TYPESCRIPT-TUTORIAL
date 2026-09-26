@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function loopFunction() {
     console.log('loop');
     while (true) {
@@ -9,4 +7,4 @@ function loopFunction() {
 function simple1() {
     console.log('loop');
 }
-//# sourceMappingURL=never.js.map
+export {};

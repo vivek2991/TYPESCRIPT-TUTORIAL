@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function fruits() {
     return "Apple";
 }
@@ -20,4 +18,4 @@ function complex() {
         return name;
     }
 }
-//# sourceMappingURL=function.js.map
+export {};

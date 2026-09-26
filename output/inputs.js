@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function getInfo() {
     const nameInput = document.getElementById("username");
     //console.log(nameInput.value);
@@ -10,4 +8,4 @@ function getInfo() {
     const age = ageInput.value;
     console.log(name, email, age);
 }
-//# sourceMappingURL=inputs.js.map
+export {};

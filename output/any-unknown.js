@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var value = "Vivek";
 console.log(value);
 value = 100;
@@ -15,4 +13,4 @@ value1 = "Sm vk";
 if (typeof value1 == 'string') {
     console.log(value1.toUpperCase());
 }
-//# sourceMappingURL=any-unknown.js.map
+export {};
