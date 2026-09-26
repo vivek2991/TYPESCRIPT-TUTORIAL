@@ -1,4 +1,4 @@
-class Auth {
+export default class Auth {
     login(name, password) {
         if (name && password) {
             return "Login Successfully";
@@ -29,4 +29,3 @@ class Teacher extends Auth {
 var t1 = new Teacher();
 console.log(t1.login('vk', '123'));
 console.log(t1.subject('Math'));
-export {};

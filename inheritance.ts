@@ -1,4 +1,4 @@
-class Auth{
+export default class Auth{
     login(name:string, password:string){
         if(name && password){
             return "Login Successfully"
